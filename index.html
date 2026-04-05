@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>THE RETROGRADE SPECIAL NIGHT</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- ══════════ HERO — FLYER ══════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-flyer-wrap">
+      <img src="flyer.jpg"
+           alt="The Retrograde Special Night — May 16 2026"
+           class="hero-flyer-img"
+           id="flyerImg"
+           loading="eager"/>
+      <div class="vignette vignette-top"></div>
+      <div class="vignette vignette-bottom"></div>
+    </div>
+    <div class="hero-cta-bar">
+      <a href="#tickets" class="btn-cta">
+        <span class="btn-cta__icon">↓</span>
+        GET YOUR TICKETS
+      </a>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true">
+      <div class="scroll-indicator__track">
+        <div class="scroll-indicator__dot"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ TICKETS ══════════ -->
+  <section class="tickets-section" id="tickets">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-tag">§ THE RETROGRADE SPECIAL NIGHT §</span>
+        <h2 class="sec-title">YOUR TICKETS</h2>
+        <p class="sec-desc">Saturday · May 16 2026 · Lagao Gym, General Santos City · 7:00 PM – 10:00 PM</p>
+      </div>
+
+      <div class="tickets-grid">
+
+        <div class="ticket-card reveal">
+          <div class="ticket-badge">VIP · ₱1,000</div>
+          <img src="ticket1.jpg" alt="Ticket — Teal Theme" class="ticket-img" loading="lazy"/>
+          <div class="ticket-info">
+            <h3 class="ticket-name">Teal Edition</h3>
+            <p class="ticket-meta">GET 05 · ROW 07 · SEAT 24</p>
+          </div>
+        </div>
+
+        <div class="ticket-card reveal">
+          <div class="ticket-badge">LOWER BOX · ₱700</div>
+          <img src="ticket2.jpg" alt="Ticket — Purple Theme" class="ticket-img" loading="lazy"/>
+          <div class="ticket-info">
+            <h3 class="ticket-name">Purple Edition</h3>
+            <p class="ticket-meta">GET 05 · ROW 07 · SEAT 24</p>
+          </div>
+        </div>
+
+        <div class="ticket-card reveal">
+          <div class="ticket-badge">UPPER BOX · ₱500</div>
+          <img src="ticket3.jpg" alt="Ticket — Blue Theme" class="ticket-img" loading="lazy"/>
+          <div class="ticket-info">
+            <h3 class="ticket-name">Blue Edition</h3>
+            <p class="ticket-meta">GET 05 · ROW 07 · SEAT 24</p>
+          </div>
+        </div>
+
+        <div class="ticket-card reveal">
+          <div class="ticket-badge">GEN AD · ₱300</div>
+          <img src="ticket4.jpg" alt="Ticket — Deep Blue Theme" class="ticket-img" loading="lazy"/>
+          <div class="ticket-info">
+            <h3 class="ticket-name">Deep Blue Edition</h3>
+            <p class="ticket-meta">GET 05 · ROW 07 · SEAT 24</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ TERMS & CONDITIONS ══════════ -->
+  <section class="terms-section" id="terms">
+    <div class="container">
+
+      <div class="sec-head">
+        <span class="sec-tag">§ THE RETROGRADE SPECIAL NIGHT §</span>
+        <h2 class="sec-title">TERMS &amp; CONDITIONS</h2>
+        <p class="sec-desc">By entering this venue, you agree to all terms below. No exceptions. No excuses.</p>
+      </div>
+
+      <div class="tabs" role="tablist">
+        <button class="tab active" data-filter="all">All</button>
+        <button class="tab" data-filter="tickets">Tickets</button>
+        <button class="tab" data-filter="conduct">Conduct</button>
+        <button class="tab" data-filter="vip">VIP</button>
+        <button class="tab" data-filter="payment">Payment</button>
+      </div>
+
+      <div class="terms-grid" id="termsGrid">
+
+        <!-- T01 -->
+        <article class="tcard reveal" data-cat="tickets">
+          <div class="tcard-inner">
+            <div class="tcard-front">
+              <div class="tnum">01</div>
+              <span class="ticon">🎫</span>
+              <h3 class="ttitle">No Refunds. No Exchanges.</h3>
+              <p class="thint">Tap to read full terms</p>
+              <span class="ttag">Tickets</span>
+            </div>
+            <div class="tcard-back">
+              <div class="tnum">01</div>
+              <p class="ttext">Tickets are non-refundable and non-exchangeable unless the event is canceled or rescheduled by the organizer. You bought it — you own it.</p>
+              <span class="ttag">Tickets</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- T02 -->
+        <article class="tcard reveal" data-cat="tickets">
+          <div class="tcard-inner">
+            <div class="tcard-front">
+              <div class="tnum">02</div>
+              <span class="ticon">🧍</span>
+              <h3 class="ttitle">One Ticket. One Person.</h3>
+              <p class="thint">Tap to read full terms</p>
+              <span class="ttag">Tickets</span>
+            </div>
+            <div class="tcard-back">
+              <div class="tnum">02</div>
+              <p class="ttext">Each ticket is valid for one person only. No sharing. No sneaking. One soul per pass — that's the deal.</p>
+              <span class="ttag">Tickets</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- T03 -->
+        <article class="tcard reveal" data-cat="tickets">
+          <div class="tcard-inner">
+            <div class="tcard-front">
+              <div class="tnum">03</div>
+              <span class="ticon">📲</span>
+              <h3 class="ttitle">Valid Ticket Required.</h3>
+              <p class="thint">Tap to read full terms</p>
+              <span class="ttag">Tickets</span>
+            </div>
+            <div class="tcard-back">
+              <div class="tnum">03</div>
+              <p class="ttext">All attendees must present a valid ticket for scanning upon entry. No ticket, no show. End of story.</p>
+              <span class="ttag">Tickets</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- T04 -->
+        <article class="tcard reveal" data-cat="conduct">
+          <div class="tcard-inner">
+            <div class="tcard-front">
+              <div class="tnum">04</div>
+              <span class="ticon">👶</span>
+              <h3 class="ttitle">Ages 2 &amp; Up Only.</h3>
+              <p class="thint">Tap to read full terms</p>
+              <span class="ttag">Conduct</span>
+            </div>
+            <div class="tcard-back">
+              <div class="tnum">04</div>
+              <p class="ttext">The event is open to ages 2 and above. Attendees under 10 must be accompanied by a parent or guardian with a valid ticket.</p>
+              <span class="ttag">Conduct</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- T05 WIDE -->
+        <article class="tcard tcard-wide reveal" data-cat="conduct">
+          <div class="wide-inner">
+            <div class="tnum">05</div>
+            <span class="ticon">🚫</span>
+            <div class="wide-body">
+              <h3 class="ttitle">Leave the Contraband at Home.</h3>
+              <p class="ttext">Weapons, illegal substances, and large bags are strictly prohibited inside the venue. We're here for music — not trouble. Zero tolerance, zero exceptions.</p>
+            </div>
+            <span class="ttag">Conduct</span>
+          </div>
+        </article>
+
+        <!-- T06 -->
+        <article class="tcard reveal" data-cat="conduct">
+          <div class="tcard-inner">
+            <div class="tcard-front">
+              <div class="tnum">06</div>
+              <span class="ticon">🎙️</span>
+              <h3 class="ttitle">Follow the Crew.</h3>
+              <p class="thint">Tap to read full terms</p>
+              <span class="ttag">Conduct</span>
+            </div>
+            <div class="tcard-back">
+              <div class="tnum">06</div>
+              <p class="ttext">Attendees must follow venue staff instructions at all times. They keep the pit safe. Respect the crew — always.</p>
+              <span class="ttag">Conduct</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- T07 DANGER -->
+        <article class="tcard tcard-danger reveal" data-cat="conduct">
+          <div class="tcard-inner">
+            <div class="tcard-front">
+              <div class="tnum">07</div>
+              <span class="ticon">⚡</span>
+              <h3 class="ttitle">Act Up. Get Kicked Out.</h3>
+              <p class="thint">Tap to read full terms</p>
+              <span class="ttag ttag-danger">Conduct</span>
+            </div>
+            <div class="tcard-back">
+              <div class="tnum">07</div>
+              <p class="ttext">Unruly behavior, harassment, or interference with the performance will result in immediate ejection without refund. We will not hesitate.</p>
+              <span class="ttag ttag-danger">Conduct</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- T08 WIDE -->
+        <article class="tcard tcard-wide reveal" data-cat="conduct">
+          <div class="wide-inner">
+            <div class="tnum">08</div>
+            <span class="ticon">⚠️</span>
+            <div class="wide-body">
+              <h3 class="ttitle">Your Gear. Your Risk.</h3>
+              <p class="ttext">The organizer and venue are not liable for loss, theft, or damage to personal property, or for any injury sustained — unless caused by proven negligence on their part.</p>
+            </div>
+            <span class="ttag">Conduct</span>
+          </div>
+        </article>
+
+        <!-- T09 VIP -->
+        <article class="tcard tcard-vip reveal" data-cat="vip">
+          <div class="tcard-inner">
+            <div class="tcard-front">
+              <div class="tnum">09</div>
+              <span class="ticon">👑</span>
+              <h3 class="ttitle">VIP Priority Access.</h3>
+              <p class="thint">Tap to read full terms</p>
+              <span class="ttag ttag-vip">VIP ₱1000</span>
+            </div>
+            <div class="tcard-back">
+              <div class="tnum">09</div>
+              <p class="ttext">VIP ticket holders receive priority entry and exclusive access to a designated viewing area. Front row energy — earned, not begged for.</p>
+              <span class="ttag ttag-vip">VIP ₱1000</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- T10 VIP -->
+        <article class="tcard tcard-vip reveal" data-cat="vip">
+          <div class="tcard-inner">
+            <div class="tcard-front">
+              <div class="tnum">10</div>
+              <span class="ticon">🔒</span>
+              <h3 class="ttitle">VIP Zone Is Sacred.</h3>
+              <p class="thint">Tap to read full terms</p>
+              <span class="ttag ttag-vip">VIP</span>
+            </div>
+            <div class="tcard-back">
+              <div class="tnum">10</div>
+              <p class="ttext">The VIP area is for ticket holders only — no guests permitted. Reserving spots for others or moving furniture is strictly prohibited.</p>
+              <span class="ttag ttag-vip">VIP</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- T11 WIDE PAYMENT -->
+        <article class="tcard tcard-wide reveal" data-cat="payment">
+          <div class="wide-inner">
+            <div class="tnum">11</div>
+            <span class="ticon">💳</span>
+            <div class="wide-body">
+              <h3 class="ttitle">How to Pay. How to Collect.</h3>
+              <p class="ttext">Payments accepted via cash, credit/debit cards, and mobile wallets. In-person purchases must be collected immediately. Pre-ordered items can be picked up at the merchandise booth during specified hours.</p>
+            </div>
+            <span class="ttag ttag-pay">Payment</span>
+          </div>
+        </article>
+
+      </div><!-- /.terms-grid -->
+
+      <!-- Progress -->
+      <div class="progress-wrap">
+        <div class="progress-meta">
+          <span class="progress-label">Terms reviewed</span>
+          <span class="progress-count" id="progressCount">0 / 11</span>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill" id="progressFill" style="width:0%"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════ AGREE ══════════ -->
+  <section class="agree-section">
+    <div class="container">
+      <div class="agree-box">
+        <span class="agree-skull">☠</span>
+        <div class="agree-copy">
+          <strong>By entering, you agree to all terms above.</strong>
+          <span>The Retrograde Special Night · May 16 2026 · Lagao Gym, GenSan</span>
+        </div>
+        <button class="btn-agree" onclick="triggerAgree()">I Agree</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-band">
+        <span class="footer-skull">☠</span>
+        <span class="footer-name">THE RETROGRADE SPECIAL NIGHT</span>
+        <span class="footer-skull">☠</span>
+      </div>
+      <p class="footer-event">Saturday · May 16 2026 · Lagao Gym, General Santos City · 7:00 PM – 10:00 PM</p>
+      <div class="footer-hr"></div>
+      <p class="footer-copy">© 2026 The Retrograde · All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <!-- ══════════ MODAL ══════════ -->
+  <div class="modal-overlay hidden" id="modalOverlay">
+    <div class="modal-box">
+      <div class="modal-skull">☠</div>
+      <h2 class="modal-title">YOU'RE IN.</h2>
+      <p class="modal-body">Welcome to The Retrograde Special Night. Respect the stage, the crew, and your fellow fans. See you at the show!</p>
+      <button class="btn-modal-close" onclick="closeModal()">LET'S GO ⚡</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
